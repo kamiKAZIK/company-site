@@ -22,6 +22,13 @@ canvas {
     transform: translate(-50%, -50%);
     background-color: #fff;
     opacity: 0.7;
-    border-radius: 6px;
     padding: 15px;
+    animation-name: fade-in;
+    animation-duration: 1s;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
 }
